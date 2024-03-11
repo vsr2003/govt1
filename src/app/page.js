@@ -13,8 +13,9 @@ import SwiperComponent from "@/components/SwiperComponent";
 
 export default function Home() {
   return (
-    <div className=" h-[200vh] w-full ">
+    <div className="w-full min-h-screen ">
       <NavHero />
+      <SwiperComponent />
       <Personality />
       <MpCardsDisplay />
       <Updates />
