@@ -17,7 +17,7 @@ const SwiperImgData = [
     "https://mp.gov.in/uploads/slider/webbanners2(4)17060100411127136992.png",
 ]
 
-export default function SwiperComponent() {
+export default function SwiperComponentOfHero() {
   return (
     <>
       <Swiper
@@ -39,9 +39,6 @@ export default function SwiperComponent() {
         ))
        }
        
-       
-    
-        
       </Swiper>
     </>
   );
