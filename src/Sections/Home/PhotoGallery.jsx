@@ -1,5 +1,5 @@
-import SwiperComponentForBrands from "@/components/SwiperComponentForBrands"
-import SwiperComponentOfPhotoGallery from "@/components/SwiperComponentOfPhotoGallery"
+import SwiperComponentForBrands from "@/app/components/SwiperComponentForBrands"
+import SwiperComponentOfPhotoGallery from "@/app/components/SwiperComponentOfPhotoGallery"
 
 
 const PhotoGallery = () => {

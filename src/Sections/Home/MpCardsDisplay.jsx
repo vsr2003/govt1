@@ -1,4 +1,4 @@
-import AboutMpCards from "@/components/AboutMp/AboutMpCards"
+import AboutMpCards from "@/app/components/AboutMp/AboutMpCards"
 
 
 const MpCardsDisplay = () => {
@@ -6,9 +6,9 @@ const MpCardsDisplay = () => {
     <div className=" relative my-[10vh] mx-auto shadow-xl h-[50vh] w-[80%] ">
 
         {/* upper background */}
-        <div style={{backgroundImage:"url('https://mp.gov.in/assets/images/slider-bottom.png')",backgroundSize:"15px 23px"}} className=" h-5 w-full "></div>
+        <div style={{backgroundImage:"url('https://mp.gov.in/assets/images/slider-bottom.png')",backgroundSize:"15px 23px"}} className="w-full h-5 "></div>
 
-        <h1 className=" text-center ">  मध्य प्रदेश के बारे में  </h1>  {/* title */}
+        <h1 className="text-center ">  मध्य प्रदेश के बारे में  </h1>  {/* title */}
         
         <AboutMpCards />
 

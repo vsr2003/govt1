@@ -1,4 +1,4 @@
-import UpdatesCard from "@/components/UpdatesCard"
+import UpdatesCard from "@/app/components/UpdatesCard"
 
 
 const Updates = () => {
